@@ -1,4 +1,4 @@
-package variables;
+package Variables;
 
 public class TiposDatos {
     public static void main(String[] args) {
