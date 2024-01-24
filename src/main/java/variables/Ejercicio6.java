@@ -8,7 +8,6 @@ public class Ejercicio6 {
 
     public static void main(String[] args) {
         int numero = 9;
-        
         String resultado = (numero % 2 == 0) ? "par" : "impar";
         System.out.println("El número " + numero + " es " + resultado);
     }
