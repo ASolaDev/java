@@ -1,10 +1,5 @@
-
 package com.mycompany.java;
 
-/**
- *
- * @author Antonio
- */
 public class Java {
 
     public static void main(String[] args) {
