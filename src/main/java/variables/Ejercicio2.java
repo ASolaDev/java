@@ -5,7 +5,7 @@
   (nota final >= 5) o está SUSPENSO (nota final < 5).
 */
 
-package Variables;
+package variables;
 
 import java.util.Locale;
 import java.util.Scanner;

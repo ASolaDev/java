@@ -2,7 +2,7 @@
 Escribe un programa que determine si un número es par o impar usando el operador ternario.
 */
 
-package Variables;
+package variables;
 
 public class Ejercicio6 {
 

@@ -3,7 +3,7 @@ Escribir un programa que calcule el área y el perímetro de un rectángulo y la
 La `altura` y la `anchura` del mismo la puedes proporcionar como valores iniciales de las variables correspondientes.
 */
 
-package Variables;
+package variables;
 
 import java.util.Scanner;
 

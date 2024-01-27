@@ -5,7 +5,7 @@ El `radio` del mismo lo puedes proporcionar como un valor inicial de la variable
 - perimetro = 2 * PI * r
 */
 
-package Variables;
+package variables;
 
 public class Ejercicio4 {
 

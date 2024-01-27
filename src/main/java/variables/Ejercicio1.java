@@ -14,7 +14,7 @@ la siguiente fórmula:
 - Precio final > 600: LUJO
 */
 
-package Variables;
+package variables;
 
 import java.util.Scanner;
 

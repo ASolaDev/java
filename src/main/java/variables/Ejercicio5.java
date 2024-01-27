@@ -4,7 +4,7 @@ Además de la variable para la cantidad de euros, se debe declarar otra para el 
 y para el resultado final. Muestra el resultado por consola.
 */
 
-package Variables;
+package variables;
 
 public class Ejercicio5 {
 
