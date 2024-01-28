@@ -18,9 +18,21 @@ public class Ejercicio14 {
         
         boolean numPrimo = true;
         
-        if (numero < 2) numPrimo = false;
+        int divisor = 2;
+
+        if (numero < 2) {
+            numPrimo = false;
+        }
+
+        while (divisor <= numero / 2 && numPrimo) {
+            if (numero % divisor == 0) {
+                numPrimo = false;
+            }
+            divisor++;
+        }
         
-        
+        if (numPrimo) System.out.println("Es primo");
+        else System.out.println("No es primo");
         
         sc.close();
     }

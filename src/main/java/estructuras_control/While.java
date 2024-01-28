@@ -28,7 +28,9 @@ public class While {
         }
         
         while (divisor <= numero / 2 && esPrimo) {
-            if (numero % divisor == 0) esPrimo = false;
+            if (numero % divisor == 0){
+                esPrimo = false;
+            }
             divisor++;
         }
         
