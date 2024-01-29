@@ -25,9 +25,7 @@ public class Ejercicio14 {
         }
 
         while (divisor <= numero / 2 && numPrimo) {
-            if (numero % divisor == 0) {
-                numPrimo = false;
-            }
+            if (numero % divisor == 0) numPrimo = false;
             divisor++;
         }
         
