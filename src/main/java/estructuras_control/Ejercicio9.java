@@ -19,6 +19,8 @@ public class Ejercicio9 {
         } else {
             System.out.println("El carácter no es una vocal");
         }
+
+        sc.close();
     }
 
 }

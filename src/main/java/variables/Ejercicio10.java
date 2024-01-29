@@ -6,7 +6,6 @@ Podemos suponer que el objeto ha recorrido un espacio inicial de 150.000 km y se
 
 package variables;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejercicio10 {
@@ -19,6 +18,8 @@ public class Ejercicio10 {
         
         System.out.println("Cuanto tiempo de viaje lleva (en segundos): ");
         int tiempo = sc.nextInt();
+
+        sc.close();
         
         espacioRecorrido = espacioInicial + velocidad * tiempo;
         

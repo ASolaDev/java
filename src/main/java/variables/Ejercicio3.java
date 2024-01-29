@@ -20,6 +20,8 @@ public class Ejercicio3 {
         alto = sc.nextDouble();
         System.out.println("Introduce el ancho del rectángulo: ");
         ancho = sc.nextDouble();
+
+        sc.close();
         
         area = alto * ancho;
         perimetro = (alto * 2) + (ancho * 2);

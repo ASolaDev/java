@@ -15,6 +15,8 @@ public class Ejercicio7 {
         int num1 = sc.nextInt();
         System.out.println("Introduce el segundo número entero: ");
         int num2 = sc.nextInt();
+
+        sc.close();
         
         int sumaNumeros = num1 + num2;
         int restaNumeros = num1 - num2;

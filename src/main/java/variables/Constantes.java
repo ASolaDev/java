@@ -11,6 +11,10 @@ public class Constantes {
         
         final String MENSAJE = "Hola mundo";
         //MENSAJE = "Adiós mundo cruel";
+
+        System.out.println(PI);
+        System.out.println(UNIDAD);
+        System.out.println(MENSAJE);
     }
 
 }

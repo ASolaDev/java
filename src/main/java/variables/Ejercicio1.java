@@ -30,6 +30,8 @@ public class Ejercicio1 {
         
         System.out.println("Introduce el coste de fabricación del portátil: ");
         costeF = sc.nextDouble();
+
+        sc.close();
         
         precioSinImpuestos = costeF + (costeF * margenB);
         precio = precioSinImpuestos + (precioSinImpuestos * impuestos);

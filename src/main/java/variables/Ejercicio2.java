@@ -25,6 +25,8 @@ public class Ejercicio2 {
         nota2 = sc.nextDouble();
         System.out.println("Introduce la nota de la 3ª evaluación: ");
         nota3 = sc.nextDouble();
+
+        sc.close();
         
         notaMedia = (nota1 + nota2 + nota3) / 3;
         double notaRedondeada = Math.round(notaMedia);

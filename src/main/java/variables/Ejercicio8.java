@@ -18,6 +18,8 @@ public class Ejercicio8 {
         double n2 = sc.nextDouble();
         System.out.println("Introduce el tercer número: ");
         double n3 = sc.nextDouble();
+
+        sc.close();
         
         double media = (n1 + n2 + n3) / 3;
         
