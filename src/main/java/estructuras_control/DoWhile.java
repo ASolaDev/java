@@ -43,7 +43,7 @@ public class DoWhile {
                     System.out.println("Saliendo...");
                     break;
             }
-        } while(opcion < 0 || opcion > 4);
+        } while (opcion < 0 || opcion > 4);
         
         System.out.println("Has salido del programa");
         
