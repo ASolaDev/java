@@ -20,6 +20,19 @@ public class Declaracion {
     	
     	// Operador []
     	array1[0] = 1234;
-    	
+        System.out.println(array1[0]);
+        
+        // Declaración e inicialización por separado
+        String[] array6 = new String[5];
+        array6[0] = "Hola";
+        array6[1] = "Mundo";
+        array6[2] = "en";
+        array6[3] = "Java";
+        array6[4] = "!";
+        System.out.println(array6[0]);
+        System.out.println(array6[1]);
+        System.out.println(array6[2]);
+        System.out.println(array6[3]);
+        System.out.println(array6[4]);
     }
 }
