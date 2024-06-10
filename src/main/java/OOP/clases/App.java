@@ -1,4 +1,4 @@
-package clases;
+package OOP.clases;
 
 public class App {
 

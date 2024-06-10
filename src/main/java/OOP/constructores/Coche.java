@@ -1,4 +1,4 @@
-package clases;
+package OOP.constructores;
 
 public class Coche {
     private String marca;
@@ -32,5 +32,4 @@ public class Coche {
     public void apagar() {
         System.out.println("El coche se ha parado");
     }
-
 }
