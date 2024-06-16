@@ -8,9 +8,10 @@ public class Alumno {
     private String email;
     private int edad;
     private String telefono;
-    
-    public Alumno() {}
-    
+
+    public Alumno() {
+    }
+
     public Alumno(String nombre, String apellidos, int edad) {
         this.nombre = nombre;
         this.apellidos = apellidos;
@@ -24,43 +25,43 @@ public class Alumno {
         this.edad = edad;
         this.telefono = telefono;
     }
-    
+
     public String getNombre() {
         return this.nombre;
     }
-    
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
+
     public String getApellidos() {
         return this.apellidos;
     }
-    
+
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
-    
+
     public String getEmail() {
         return this.email;
     }
-    
+
     public void setEmail(String email) {
         this.email = email;
     }
-    
+
     public int getEdad() {
         return this.edad;
     }
-    
+
     public void setEdad(int edad) {
-        this.edad= edad;
+        this.edad = edad;
     }
-    
+
     public String getTelefono() {
         return this.telefono;
     }
-    
+
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
@@ -102,13 +103,9 @@ public class Alumno {
         }
         return Objects.equals(this.telefono, other.telefono);
     }
-    
-    public void esMayorDeEdad(int edad) {
-        if (edad >= 18) {
-            System.out.println("El alumno %s %s es mayor de edad".formatted(nombre, apellidos));
-        } else {
-            System.out.println("El alumno %s %s es menor de edad".formatted(nombre, apellidos));
-        }
+
+    public boolean esMayorEdad(int edad) {
+        return (edad > 18);
     }
-    
+
 }

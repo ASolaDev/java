@@ -17,7 +17,6 @@ public class Ejercicio1 {
         alumno2.setEmail("blablabla@gmail.com");
         alumno2.setTelefono("587295394");
         
-        
     }
 
 }
