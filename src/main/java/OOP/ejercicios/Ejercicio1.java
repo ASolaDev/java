@@ -1,8 +1,9 @@
-package OOP.ejercicios;
+package oop.ejercicios;
 
 public class Ejercicio1 {
 
     public static void main(String[] args) {
+        
         Alumno alumno1 = new Alumno();
         alumno1.setNombre("Antonio");
         alumno1.setApellidos("Sola Avilés");
@@ -16,7 +17,7 @@ public class Ejercicio1 {
         alumno2.setEdad(17);
         alumno2.setEmail("blablabla@gmail.com");
         alumno2.setTelefono("587295394");
-        
+    
     }
 
 }

@@ -1,4 +1,4 @@
-package OOP.atributosMetodos;
+package oop.atributosMetodos;
 
 public class Coche {
     private String marca;

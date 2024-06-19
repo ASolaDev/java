@@ -1,4 +1,4 @@
-package OOP.constructores;
+package oop.constructores;
 
 public class Coche {
     private String marca;

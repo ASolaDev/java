@@ -1,4 +1,4 @@
-package OOP.ejercicios;
+package oop.ejercicios;
 
 import java.util.Objects;
 

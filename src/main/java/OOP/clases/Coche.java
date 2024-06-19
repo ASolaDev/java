@@ -1,4 +1,4 @@
-package OOP.clases;
+package oop.clases;
 
 public class Coche {
     private String marca;
