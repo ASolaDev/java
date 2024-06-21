@@ -20,6 +20,5 @@ public class Rectangulo {
         this.c3 = c3;
         this.c4 = c4;
     }
-    
-    
+
 }
